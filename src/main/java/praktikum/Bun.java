@@ -4,10 +4,10 @@ package praktikum;
  * Модель булочки для бургера.
  * Булочке можно дать название и назначить цену.
  */
-public class Bun {
+public class Bun { //класс булочка покрыть тестами
 
-    public String name;
-    public float price;
+    public String name; // наименование
+    public float price; // цена
 
     public Bun(String name, float price) {
         this.name = name;
